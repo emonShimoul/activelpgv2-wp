@@ -191,6 +191,14 @@ Text Domain: activelpgv2
 .navbar-left ul li a {
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 600;
+}
+.navbar-left ul li:hover a {
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
 }
 .header-logo img {
   width: 210px;
