@@ -13,6 +13,15 @@ function activelpgv2_bootstrapping(){
     );
     add_theme_support("custom-logo", $alpha_custom_logo_defaults);
 
+    // for logo
+    $defaults = array(
+        'height'      => 100, // Change to desired height
+        'width'       => 400, // Change to desired width
+        'flex-height' => true,
+        'flex-width'  => true,
+    );
+    add_theme_support('custom-logo', $defaults);
+
 
     // for gutenberg
     add_theme_support( 'wp-block-styles' );
