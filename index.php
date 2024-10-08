@@ -5,6 +5,8 @@
 
     <?php if(is_front_page()){ ?>
 
+        <?php get_template_part("slider"); ?>
+
     <div class="heading">
         <p>Active LPG</p>
         <h1>Unleash the Power <br> of LPG Conversion</h1>
