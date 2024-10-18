@@ -6,6 +6,22 @@
     <?php if(is_front_page()){ ?>
 
         <?php get_template_part("slider"); ?>
+        <div class="slider">
+            <h2>Slider</h2>
+            <?php
+            if ( class_exists( 'Attachments' ) ) {
+                $attachments = new Attachments( 'slider' );
+                if ( $attachments->exist() ) {
+                    while ( $attachment = $attachments->get() ) { ?>
+                        <div>
+                            <?php echo $attachments->image( 'large' ); ?>
+                        </div>
+                        <?php
+                    }
+                }
+            }
+            ?>
+        </div>
 
     <div class="heading">
         <p>Active LPG</p>
