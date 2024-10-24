@@ -6,3 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
+
+<body <?php body_class(); ?>>
+    <!-- includes navbar -->
+    <?php get_template_part("navbar"); ?>
