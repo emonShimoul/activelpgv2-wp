@@ -49,7 +49,8 @@ Text Domain: activelpgv2
   border-bottom: 1px solid black;
 }
 .clients-seen h3,
-.services h3 {
+.services h3,
+.our-team-heading h3 {
   font-weight: bold;
   color: #081b33;
   font-size: 3.02083333vw;
@@ -69,7 +70,8 @@ Text Domain: activelpgv2
   width: 60%;
 }
 .clients-seen-bottom p,
-.services p {
+.services p,
+.our-team-heading p {
   /* color: #081b33; */
   font-weight: 300;
   font-size: 24px;
@@ -179,6 +181,67 @@ Text Domain: activelpgv2
   height: 400px;
 }
 
+/* our team section */
+.our-team p {
+  color: #8d97ad;
+  font-weight: 300;
+}
+.team3 .font-weight-medium {
+  font-weight: 500;
+}
+.team3 .bg-light {
+  background-color: #f4f8fa !important;
+}
+.team3 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+  font-size: 13px;
+}
+.team3 ul {
+  margin-top: 30px;
+}
+.team3 h5 {
+  line-height: 22px;
+  font-size: 18px;
+}
+.team3 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  text-decoration: none;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+.team3 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+  color: #316ce8;
+}
+.team3 .title {
+  margin: 30px 0 0 0;
+}
+/* .team3 .subtitle {
+  margin: 0 0 20px 0;
+  font-size: 13px;
+} */
+.our-team-row h5,
+.our-team-row h6 {
+  text-align: center;
+}
+.team-member {
+  text-align: center;
+}
+.team-member img {
+  width: 70%;
+  border-radius: 10px;
+}
+.single-team-member {
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  text-align: center;
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
 /* post style */
 .post {
   margin-bottom: 50px;
@@ -192,7 +255,6 @@ Text Domain: activelpgv2
   color: #444444;
 }
 .post a {
-  /* color: #ee3131; */
   text-decoration: none;
 }
 .post .row:nth-child(2) {
@@ -205,6 +267,7 @@ Text Domain: activelpgv2
 .post p img {
   max-width: 100%;
   height: auto;
+  margin-top: 50px;
 }
 
 /* footer style */

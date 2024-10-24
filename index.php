@@ -1,17 +1,13 @@
 <?php get_header(); ?>
 
 <body <?php body_class(); ?>>
+    <!-- includes navbar -->
     <?php get_template_part("navbar"); ?>
 
     <!-- front page design starts -->
     <?php if(is_front_page()){ ?>
 
         <?php get_template_part("slider"); ?>
-
-        <div class="heading">
-            <p>Active LPG</p>
-            <h1>Unleash the Power <br> of LPG Conversion</h1>
-        </div>
 
         <!-- clients-seen section starts -->
         <div class="clients-seen container">
@@ -32,7 +28,7 @@
             </div>
             <div class="clients-seen-bottom mx-auto">
                 <p>The right LPG conversion can be the difference between a problematic car that's always at the garage and a car that lives up to the promise of LPG conversion. </p>
-                <a href="https://activelpg.com/contact-2/">
+                <a href="#contact">
                 <button type="button" class="btn btn-dark btn-lg">Contact Us</button>
                 </a>
             </div>
@@ -80,14 +76,173 @@
         </div>
         <!-- services section ends -->
 
-        <div class="container text-center mb-4">
-            <img src="<?php echo header_image(); ?>" alt="">
-        </div> 
-            
+        <div class="heading">
+            <p>Active LPG</p>
+            <h1>Unleash the Power <br> of LPG Conversion</h1>
+        </div>
+
+        <!-- Our team section starts -->
+        <div class="our-team pt-5 team3 bg-light">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="our-team-heading col-md-7 text-center">
+                        <h3 class="mb-3">Experienced & Professional Team</h3>
+                        <p class="">You can relay on our amazing features and also our customer services will be great experience for you.</p>
+                    </div>
+                </div>
+                <div class="row our-team-row">
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                            <div class="col-md-12 team-member">
+                                <img src="https://i.ibb.co.com/4pxQ41s/foysal.jpg" alt="wrapkit" class="img-fluid" />
+                            </div>
+                            <div class="col-md-12">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Sikder Foysal</h5>
+                                    <h6 class="subtitle">Owner</h6>
+                                    <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="fab fa-facebook-f" href="#" target="blank"></a></li>
+                                        <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                        <li class="list-inline-item"><a class="fab fa-linkedin-in" href="#" target="blank" ></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                        <div class="col-md-12 pro-pic team-member">
+                            <img src="https://i.ibb.co.com/cw5MrLX/rakib.jpg" alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Md. Rakib Hossain</h5>
+                                <h6 class="subtitle">Managing Director</h6>
+                                <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a class="fab fa-facebook-f" href="#" target="blank"></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-linkedin-in" href="#" target="blank" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                        <div class="col-md-12 pro-pic team-member">
+                            <img src="https://i.ibb.co.com/ZH4DBXS/selim.jpg" alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Md Selim Reza</h5>
+                                <h6 class="subtitle">Accounts Manager</h6>
+                                <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a class="fab fa-facebook-f" href="#" target="blank"></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-linkedin-in" href="#" target="blank" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                </div>
+                <div class="row our-team-row">
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                            <div class="col-md-12 team-member">
+                                <img src="https://i.ibb.co.com/7vLYV6B/shorif.jpg" alt="wrapkit" class="img-fluid" />
+                            </div>
+                            <div class="col-md-12">
+                                <div class="pt-2">
+                                    <h5 class="mt-4 font-weight-medium mb-0">Khandakar Sharif</h5>
+                                    <h6 class="subtitle">Brand Ambassador</h6>
+                                    <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="fab fa-facebook-f" href="https://www.facebook.com/autos360events" target="blank"></a></li>
+                                        <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                        <li class="list-inline-item"><a class="fab fa-linkedin-in" href="#" target="blank" ></a></li>
+                                        <li class="list-inline-item"><a class="fab fa-youtube" href="https://www.youtube.com/@autos360live" target="blank" ></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                        <div class="col-md-12 pro-pic team-member">
+                            <img src="https://i.ibb.co.com/whnKnfg/majhar.jpg" alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Majharul Islam</h5>
+                                <h6 class="subtitle">IT Officer</h6>
+                                <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a class="fab fa-facebook-f" href="https://www.facebook.com/majhar.math/" target="blank"></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/majharmath/" target="blank" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                    <!-- column  -->
+                    <div class="col-lg-4 mb-4">
+                        <!-- Row -->
+                        <div class="row single-team-member">
+                        <div class="col-md-12 pro-pic team-member">
+                            <img src="https://i.ibb.co.com/X51vYF3/shimul.jpg" alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pt-2">
+                                <h5 class="mt-4 font-weight-medium mb-0">Shimoul Uddin Emon</h5>
+                                <h6 class="subtitle">Website Developer</h6>
+                                <!--<p>You can relay on our amazing features list and also our customer services will be great experience.</p>-->
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a class="fab fa-facebook-f" href="#" target="blank"></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-instagram" href="#" target="blank" ></a></li>
+                                    <li class="list-inline-item"><a class="fab fa-linkedin-in" href="#" target="blank" ></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Row -->
+                    </div>
+                    <!-- column  -->
+                </div>
+            </div>
+        </div>
+        <!-- Our team section ends -->  
+
+        <!-- includes gallery -->
+        <?php get_template_part("contact-us"); ?>
     <?php } ?>
     <!-- front page design ends -->
 
-    <!-- display posts -->
+    <!-- display posts in the blog page -->
     <?php if(!is_front_page()){ ?>
         <div class="posts container mt-4">
         <?php
@@ -104,16 +259,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <p>
-                            <strong><?php the_author(); ?></strong><br>
-                            <?php echo get_the_date(); ?>
-                        </p>
-
-                        <?php echo get_the_tag_list("<ul class=\"list-unstyled\"><li>","</li><li>","</li></ul>") ?>
-
-                    </div>
-                    <div class="col-md-8">
+                    <div class="col-md-5">
                         <p>
                             <?php
                             if(has_post_thumbnail()){
@@ -121,14 +267,15 @@
                             }
                             ?>
                         </p>
-
+                    </div>
+                    <div class="col-md-7">
                         <?php
-                        the_content();
                         // if(is_single()){
                         //     the_content();
                         // }else{
                         //     the_excerpt();
                         // }
+                        the_content();
                         ?>
                     </div>
                 </div>
