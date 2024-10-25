@@ -16,6 +16,11 @@ Template Name: Products
         <div class="post" <?php post_class(); ?> >
             <div class="container">
                 <div class="row">
+                    <div class="col-md-7 text-start">
+                        <?php
+                        the_content();
+                        ?>
+                    </div>
                     <div class="col-md-5">
                         <p>
                             <?php
@@ -24,11 +29,6 @@ Template Name: Products
                             }
                             ?>
                         </p>
-                    </div>
-                    <div class="col-md-7">
-                        <?php
-                        the_content();
-                        ?>
                     </div>
                 </div>
             </div>

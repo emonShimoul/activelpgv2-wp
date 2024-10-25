@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="google-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d11370.1371364776!2d90.42633578144039!3d23.796806070375812!3m2!1i1024!2i768!4f13.1!2m1!1sactive%20lpg%20100%20Feet%20Road%2C%20Natun%20Bazar%2C%20Vatara.%2C%20Dhaka%2C%20Bangladesh!5e1!3m2!1sen!2sbd!4v1729754113331!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d177.6550799537237!2d90.4374811!3d23.7992287!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7b452e30097%3A0x6abc60d6987da177!2sActive%20LPG%20Conversion%20Workshop!5e1!3m2!1sen!2sbd!4v1729846775198!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
