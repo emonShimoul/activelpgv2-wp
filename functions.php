@@ -41,6 +41,7 @@ function activelpgv2_assets(){
     wp_enqueue_style('emon-gallery-style', get_template_directory_uri() . '/assets/styles/contact-us.css');
     wp_enqueue_style('emon-products-style', get_template_directory_uri() . '/assets/styles/page-products.css');
     wp_enqueue_style('emon-blogs-style', get_template_directory_uri() . '/assets/styles/page-blogs.css');
+    wp_enqueue_style('emon-single-page-style', get_template_directory_uri() . '/assets/styles/single.css');
     wp_enqueue_style("bootstrap", "//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
     wp_enqueue_style("tns-style", "https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css");
 
