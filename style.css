@@ -178,8 +178,8 @@ Text Domain: activelpgv2
 }
 
 /* slider css */
-.slider-img {
-  height: 400px;
+.slider-img img {
+  border-radius: 0 !important;
 }
 
 /* our team section */
