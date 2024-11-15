@@ -236,6 +236,9 @@
 
         <!-- includes gallery -->
         <?php get_template_part("contact-us"); ?>
+
+        <!-- our brands -->
+        <?php get_template_part("our-brands"); ?>
     <?php } ?>
     <!-- front page design ends -->
 

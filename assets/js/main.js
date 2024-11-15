@@ -1,15 +1,28 @@
-(function ($) {
-  $(document).ready(function () {
-    var slider = tns({
-      container: ".slider",
-      speed: 300,
-      autoplayTimeout: 3000,
-      items: 1,
-      autoplay: true,
-      autoHeight: true,
-      controls: false,
-      nav: false,
-      autoplayButtonOutput: false,
-    });
+// slick carousel
+
+jQuery(document).ready(function ($) {
+  console.log("Main.js is loaded and running!");
+  $(".customer-logos").slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
   });
-})(jQuery);
+});
