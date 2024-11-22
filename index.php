@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
     <!-- front page design starts -->
     <?php if(is_front_page()){ ?>
 

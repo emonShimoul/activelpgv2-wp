@@ -1,5 +1,5 @@
 <div class="container our-brands">
-  <h2>Our <span>Brands</span></h2>
+  <h2>Our <span>Clients</span></h2>
    <section class="customer-logos slider mb-5">
       <div class="slide"><img src="https://i.ibb.co.com/s6mgphw/ACI-Limited-logo.png"></div>
       <div class="slide"><img src="https://i.ibb.co.com/C9pCXzj/Bashundhara-Group-logo.png"></div>
