@@ -13,3 +13,28 @@
   transition: transform 0.5s ease-in-out;
   height: 100%; /* Make slider take up the full height */
 }
+
+/* Each slide will take up full height and width of the container */
+.slide {
+  min-width: 100%; /* Make each slide take up 100% of the width */
+  height: 100%; /* Make each slide take up 100% of the height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* Navigation Buttons */
+.slider-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
