@@ -1,0 +1,15 @@
+/* Slider container */
+.slider-container {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* Slider itself (holding the slides) */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%; /* Make slider take up the full height */
+}
