@@ -38,3 +38,15 @@
   cursor: pointer;
   border-radius: 50%;
 }
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.slider-container button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
