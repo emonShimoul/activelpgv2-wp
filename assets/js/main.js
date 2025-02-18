@@ -1,7 +1,6 @@
 // slick carousel
 
 jQuery(document).ready(function ($) {
-  console.log("Main.js is loaded and running!");
   $(".customer-logos").slick({
     slidesToShow: 6,
     slidesToScroll: 1,

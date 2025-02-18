@@ -1,7 +1,6 @@
 <?php
 
 if(class_exists('Attachments')){
-    // die();
     require_once "lib/attachments.php";
 }
 
@@ -19,8 +18,8 @@ function activelpgv2_bootstrapping(){
 
     // for logo
     $defaults = array(
-        'height'      => 100, // Change to desired height
-        'width'       => 400, // Change to desired width
+        'height'      => 100, 
+        'width'       => 400, 
         'flex-height' => true,
         'flex-width'  => true,
     );
